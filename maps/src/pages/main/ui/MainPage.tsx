@@ -1,7 +1,7 @@
 'use client';
 
 import { GoogleMapsProvider } from '@/app/maps';
-import { GoogleMap, TrackingPins } from '@/features/maps';
+import { GoogleMap, TrackingPins } from '@/features/maps/ui';
 
 const MainPage = () => {
   return (
