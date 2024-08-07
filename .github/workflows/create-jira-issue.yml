@@ -1,16 +1,16 @@
 name: Create Jira issue # 1
 on: # 2
   issues: 
-    types: [opened] 
+    types: [opened]
     
 jobs: # 3
-  create-issue:  # 4
+  create-issue: # 4
     name: Create Jira issue # 5
     runs-on: ubuntu-latest # 6
     steps: # 7
     - name: Login
       uses: atlassian/gajira-login@v3 # 8
-      env: 
+      env: # 9
         JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
         JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
