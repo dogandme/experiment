@@ -1,4 +1,1 @@
-import { MainPage } from '@/pages';
-
-const Page = () => <MainPage />;
-export default Page;
+export { default } from '@/pages/main';
