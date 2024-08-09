@@ -1,12 +1,12 @@
 'use client';
 
 import GoogleProvider from '@/app/GoogleProvider';
-import { GoogleMap } from '@/features/Map/ui';
+import { MapWidget } from '@/widgets/Map/ui';
 
 const MainPage = () => {
   return (
     <GoogleProvider>
-      <GoogleMap />
+      <MapWidget />
     </GoogleProvider>
   );
 };

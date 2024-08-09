@@ -11,7 +11,7 @@ const MapGround = (props: MapGroundProps) => {
       mapId={NEXT_PUBLIC_GOOGLE_MAP_ID}
       defaultCenter={{ lat: 37.553441, lng: 126.9696769 }}
       defaultZoom={20}
-      style={{ width: '100%', height: '100%' }}
+      style={{ width: '100%', height: '100%', zIndex: 1 }}
       {...mapProps}
     >
       {children}
