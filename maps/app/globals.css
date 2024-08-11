@@ -25,6 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @layer utilities {
