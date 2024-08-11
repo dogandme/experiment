@@ -1,11 +1,11 @@
 'use client';
 
-import PhotoNavBar from '@/widgets/photo/ui';
 import StreamingScreen from '@/entities/photo/ui/StreamingScreen';
-import Button from '@/shared/ui/Button';
 import CapturedScreen from '@/entities/photo/ui/CapturedScreen';
+import Button from '@/shared/ui/Button';
 
 import { usePhotoLogic } from '../hooks/domain';
+import PhotoNavBar from '@/entities/photo/ui/PhotoNavBar';
 
 const wrapperStyle = {
   border: '1px solid white',
