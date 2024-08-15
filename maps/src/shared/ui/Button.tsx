@@ -3,10 +3,16 @@ const Button = ({
   onClick,
 }: {
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
 }) => {
   return (
-    <button className='px-2 py-2' onClick={onClick}>
+    <button
+      style={{
+        backgroundColor: 'gray',
+        padding: '1rem',
+      }}
+      onClick={onClick}
+    >
       {children}
     </button>
   );
