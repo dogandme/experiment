@@ -1,5 +1,4 @@
 import { PhotoApp } from '@/features/photo/ui';
-import PhotoHeader from '@/widgets/photo/ui';
 
 interface recordSearchParams {
   type: 'video' | 'camera' | unknown;

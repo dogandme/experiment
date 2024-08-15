@@ -13,21 +13,4 @@ interface Coords {
   lng: number;
 }
 
-const GoogleMap = () => {
-  const { zoom } = useZoom();
-  const { mapCenter: Coords } = useMapCenter();
-
-  return (
-    <Map>
-      <MapContext.Provider value={mapCenter}>
-        <ConditionalRendering
-          condition={zoom >= 10}
-          on={<Cluster />}
-          off={<Marker />}
-        />
-      </MapContext.Provider>
-    </Map>
-  );
-};
-
 export default FootStamp;

@@ -42,3 +42,8 @@ form {
   padding: 1rem;
   border: 1px solid black;
 }
+
+.phone {
+  width: 400px;
+  height: 600px;
+}
